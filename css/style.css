@@ -1,0 +1,36 @@
+
+  body{
+    margin-top: 3.72rem;
+  }
+  .menu-styling{
+    box-shadow: 0px 3px 17px 5px #555;
+    margin-top: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+.p10p{
+  padding:10%;
+}
+/* #main ,#education , #contact{ background-color: #7fffd4;} */
+#main .row img {
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.32);
+  width: 75%;
+}
+.bsc{
+  text-shadow: 2px 2px 7px #000;
+  color:#fff;
+}
+.container-fluid {
+  padding:2%;
+  padding-top: 2%;
+  box-shadow: 0px 3px 17px 5px #555;
+
+}
+.nav-link{color:#008080; padding-right: 1.5rem !important; padding-left: 1.5rem !important;}
+.navbar-nav{font-size: 18px;}
+.checked{color:orange;}
+.active{ border-bottom:0.5px solid #000; color:#000}
+.form-control:focus { box-shadow: none;}
+.form-control { border:none;}
+.input-group {border:1px solid #c6c6c6;border-radius: 4px;}
+.input-group-addon{padding:2% 4%; background-color: #e6e6e6;}
