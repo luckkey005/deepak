@@ -7,8 +7,13 @@
     <title>Deepak Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/devicon.css"> -->
     <style>
     .container{padding:5% 1%;}
+    h2{color:gray;}
+    .element{color:blueviolet;}
+    .btn-rounded{border-radius: 35px;}
+    img{max-width: 100%;}
     </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
@@ -41,26 +46,123 @@
 
       <div class="container" id="home" >
         <!-- home section starts here -->
+        <div class="row text-center">
+            <div class="col-12">
+                <h1>K Lakshmi Deepak</h1>
+                <h2>I am a <span class="element"></span></h2>
+                <a href="#contact" class="btn btn-rounded btn-success">Contact Me</a href="#contact">
+            </div>        
+        </div>
+        
         <!-- home section ends here -->
       </div>
       <div class="container" id="about">
         <!-- about section starts here -->
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="img/photo.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores numquam omnis amet ducimus. Voluptatem, rem quibusdam! Tempore nobis facilis excepturi aliquam odio praesentium vitae, commodi quo sequi mollitia, rem maxime?</p>
+            </div>
+        </div>
         <!-- about section ends here -->
       </div>
       <div class="container" id="project">
         <!-- project section starts here -->
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="img/" alt="Techstar project image here" class="img-responsive img-placeholder">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores numquam omnis amet ducimus. Voluptatem, rem quibusdam! Tempore nobis facilis excepturi aliquam odio praesentium vitae, commodi quo sequi mollitia, rem maxime?</p>
+                <a href="#" class="btn btn-rounded btn-info">Read More...</a>
+                <a href="#" class="btn btn-rounded btn-info">Visit...</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="img/" alt="Vamsi project image here" class="img-responsive img-placeholder">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores numquam omnis amet ducimus. Voluptatem, rem quibusdam! Tempore nobis facilis excepturi aliquam odio praesentium vitae, commodi quo sequi mollitia, rem maxime?</p>
+                <a href="#" class="btn btn-rounded btn-info">Read More...</a>
+                <a href="#" class="btn btn-rounded btn-info">Visit...</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="img/" alt="ID card project image here" class="img-responsive img-placeholder">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores numquam omnis amet ducimus. Voluptatem, rem quibusdam! Tempore nobis facilis excepturi aliquam odio praesentium vitae, commodi quo sequi mollitia, rem maxime?</p>
+                <a href="#" class="btn btn-rounded btn-info">Read More...</a>
+                <a href="#" class="btn btn-rounded btn-info">Visit...</a>
+            </div>
+        </div>
         <!-- project section ends here -->
       </div>
       <div class="container" id="skills">
         <!-- skills section starts here -->
+        <div class="row">
+            <div class="col- d-flex text-center">
+                <i class="fa fa-html5">html5</i>
+                <i class="fa fa-css3">css3</i>
+                <i class="fa fa-css3">bootstrap</i>
+                <i class="fa fa-css3">js</i>
+                <i class="fa fa-css3">angular</i>
+                <i class="fa fa-css3">git</i>
+                <i class="fa fa-css3">github</i>
+                <i class="fa fa-css3">jquery</i>
+                <i class="fa fa-css3">photoshop</i>
+                <i class="fa fa-css3">php</i>
+                <i class="fa fa-css3">mysql</i>
+                <i class="fa fa-css3">typescript</i>
+                <i class="fa fa-css3">wordpress</i>
+            </div>
+        </div>
         <!-- skills section ends here -->
       </div>
       <div class="container" id="contact">
         <!-- contact section starts here -->
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <h4>K Lakshmi Deepak</h4>
+                <h6>UI Developer</h6>
+                <p></p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <form action="/post" method="post">
+                    <input class="form-control" name="name" placeholder="Name..." /><br />
+                    <input class="form-control" name="phone" placeholder="Phone..." /><br />
+                    <input class="form-control" name="email" placeholder="E-mail..." /><br />
+                    <textarea class="form-control" name="text" placeholder="How can I help you?" style="height:150px;"></textarea><br />
+                    <input class="btn btn-rounded btn-primary" type="submit" value="Send" /><br /><br />
+                  </form>
+            </div>
+        </div>
         <!-- contact section ends here -->
       </div>
 
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/typed.min.js"></script>
+      <script>
+      var typed3 = new Typed('.element', {
+    strings: ['<i>Web Developer</i> ', '<i>UI Developer</i>', '<i>Freelancer</i>'],
+    typeSpeed: 70,
+    backSpeed: 10,
+    smartBackspace: true, // this is a default
+    loop: true
+  });
+      </script>
+
 </body>
 </html>
